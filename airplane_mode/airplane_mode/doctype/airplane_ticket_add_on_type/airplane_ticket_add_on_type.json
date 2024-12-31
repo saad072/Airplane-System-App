@@ -2,47 +2,33 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "prompt",
- "creation": "2024-12-30 16:27:16.246962",
+ "creation": "2024-12-31 17:21:24.431597",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "founding_year",
-  "customer_care_number",
-  "headquarters"
+  "description",
+  "amount"
  ],
  "fields": [
   {
-   "fieldname": "founding_year",
-   "fieldtype": "Int",
-   "label": "Founding Year",
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "default": "0.00",
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount",
    "non_negative": 1
-  },
-  {
-   "fieldname": "customer_care_number",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Customer Care Number",
-   "reqd": 1
-  },
-  {
-   "fieldname": "headquarters",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Headquarters",
-   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [
-  {
-   "link_doctype": "Airplane",
-   "link_fieldname": "airline"
-  }
- ],
- "modified": "2024-12-31 14:45:19.623768",
+ "links": [],
+ "modified": "2024-12-31 17:29:09.777812",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
- "name": "Airline",
+ "name": "Airplane Ticket Add-on Type",
  "naming_rule": "Set by user",
  "owner": "Administrator",
  "permissions": [

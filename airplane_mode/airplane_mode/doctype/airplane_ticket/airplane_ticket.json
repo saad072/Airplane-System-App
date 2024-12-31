@@ -11,12 +11,15 @@
   "source_airport_code",
   "duration_of_flight",
   "status",
+  "add_ons",
   "column_break_jzet",
   "flight",
   "destination_airport",
   "destination_airport_code",
   "departure_date",
-  "departure_time"
+  "departure_time",
+  "flight_price",
+  "total_amount"
  ],
  "fields": [
   {
@@ -99,11 +102,29 @@
    "label": "Status",
    "options": "Booked\nChecked-In\nBoarded",
    "reqd": 1
+  },
+  {
+   "fieldname": "add_ons",
+   "fieldtype": "Table",
+   "label": "Add Ons",
+   "options": "Airplane Ticket Add-on Item"
+  },
+  {
+   "fieldname": "flight_price",
+   "fieldtype": "Currency",
+   "label": "Flight Price",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total Amount"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-30 17:51:59.547602",
+ "modified": "2024-12-31 17:38:48.041797",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Ticket",
