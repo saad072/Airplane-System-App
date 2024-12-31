@@ -1,6 +1,6 @@
 ## Airplane Mode
 
-Flight/Airplane App
+Flight/Airplane System App
 
 #### License
 
