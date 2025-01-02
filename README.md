@@ -1,7 +1,7 @@
-## Airplane Mode
+# Airplane Mode
 
 Flight/Airplane System App
 
-#### License
+# License
 
-mit
+MIT
